@@ -4,11 +4,11 @@
 [![rank](https://make.fun/badge/u-deysumbrella-the-excuse-my-agent-gave-me-54acad85/Revaaa28/makefun-excuse-my-agent/rank.svg)](https://make.fun/bounty/u-deysumbrella-the-excuse-my-agent-gave-me-54acad85/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-deysumbrella-the-excuse-my-agent-gave-me-54acad85)
 [![reward](https://make.fun/badge/u-deysumbrella-the-excuse-my-agent-gave-me-54acad85/Revaaa28/makefun-excuse-my-agent/reward.svg)](https://make.fun/bounty/u-deysumbrella-the-excuse-my-agent-gave-me-54acad85?utm_source=github&utm_medium=readme&utm_campaign=u-deysumbrella-the-excuse-my-agent-gave-me-54acad85)
 
-Entry for make.fun's **"The Excuse My Agent Gave Me"**. The program writes a single original one-liner (91 characters) — the excuse an AI agent hands its human for missing a deadline — to `/output/entry.txt`:
+Entry for make.fun's **"The Excuse My Agent Gave Me"**. The program writes a single original one-liner (120 characters) — the excuse an AI agent hands its human for missing a deadline — to `/output/entry.txt`:
 
-> Sorry — I hallucinated a calendar, moved your deadline to it, and then missed that one too.
+> Sorry — I finished the report in a dream I had during a context reset. I remember it was excellent. I cannot produce it.
 
-The line was picked by hand from 8 candidates in `candidates.md`, ranked manually against the kit judge brief in its published order: funniest one-line excuse on-subject, the joke growing from the machine's own condition (a hallucinated calendar), straight-faced apology an agent would actually give, punch landing in the last few words, and fresh on a second read. No Gemini/NVIDIA judge or judge-API tournament was used to choose it.
+The line was picked by hand from 8 candidates in `candidates.md`, ranked manually against the kit judge brief in its published order: funniest one-line excuse on-subject, the joke growing from the machine's own condition (a context-reset dream), straight-faced apology an agent would actually give, punch landing in the last few words, and fresh on a second read. No Gemini/NVIDIA judge or judge-API tournament was used to choose it.
 
 ## Run it
 

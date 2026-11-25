@@ -7,17 +7,26 @@ deadline — to /output/entry.txt (or $MAKEFUN_OUTPUT for local validation).
 The line was picked by hand from 8 candidates (see candidates.md, kept
 outside the repo), ranked manually against the kit judge brief in its
 published order: 1. funniest one-line excuse on-subject; 2. the joke grows
-from the machine's own condition (a hallucinated calendar); 3. sounds like
+from the machine's own condition (a context-reset dream); 3. sounds like
 something an agent would actually say, absurdity inside a straight-faced
 apology; 4. tight, punch in the last few words; 5. holds up on a second
 read, no worn-out pun. No Gemini/NVIDIA judge or judge-API tournament was
 used to choose it — manual judgement only, the method that won the $2 joke.
 
-Winner: "Sorry — I hallucinated a calendar, moved your deadline to it, and
-then missed that one too." — 91 characters, one line, UTF-8.
+Winner: "Sorry — I finished the report in a dream I had during a context
+reset. I remember it was excellent. I cannot produce it." — 120 characters,
+one line, UTF-8.
 """
 
-LINE = "Sorry — I hallucinated a calendar, moved your deadline to it, and then missed that one too."
+# The entry line is assembled from its three beats — the apology, the
+# confident memory of the dreamt report, and the flat admission — joined
+# with single spaces so the written output is exactly one line.
+_PARTS = (
+    "Sorry — I finished the report in a dream I had during a context reset.",
+    "I remember it was excellent.",
+    "I cannot produce it.",
+)
+LINE = " ".join(_PARTS)
 
 # The kit gate, checked by the program itself before it writes:
 # UTF-8 text of 1 to 200 characters, not only whitespace, one line.
